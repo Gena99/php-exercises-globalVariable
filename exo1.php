@@ -7,15 +7,15 @@
 
 </head>
 <body>
-	<?php
+	
 
 
-	echo $_SERVER['HTTP_USER_AGENT'];
-	echo $_SERVER["REMOTE_ADDR"];
-	echo $_SERVER["SERVER_NAME"];
+	<div class= "User"><?php echo $_SERVER['HTTP_USER_AGENT']?> </div>
+	<div class= "User"><?php echo $_SERVER['REMOTE_ADDR']; ?> </div>
+	<div class= "User"><?php echo $_SERVER['HTTP_USER_AGENT']; ?> </div>
+	<div class= "User"><?php echo $_SERVER['SERVER_NAME']; ?> </div>
+	
 
-
-	?>
 	
 </body>
 </html>
