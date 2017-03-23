@@ -18,6 +18,15 @@ setcookie('password',$_POST['mdp']);
 
 	echo $_COOKIE['login']." ". $_COOKIE['password'];
 	?>
+	<?php
+	echo '<form action="#" method="POST">
+	<label for= >login </label>
+	<input type="text" name="login" value="'.$_COOKIE['login'].'">
+	<label for= "">Password</label>
+	<input type= "text" name= "mdp" value= "'.$_COOKIE['password'].'">
+	<input type= "submit" value= "connexion"></form>'; ?>
+	
+
 
 </body>
 </html>
